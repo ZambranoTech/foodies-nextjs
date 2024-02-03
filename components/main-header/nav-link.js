@@ -14,7 +14,7 @@ export default function NavLink({ href, children }) {
         path.startsWith(href) ? `${classes.link} ${classes.active}` : classes.link
       }
     >
-      Browse Meals
+      {children}
     </Link>
   );
 }
